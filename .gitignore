@@ -1,0 +1,50 @@
+# Environment variables / API keys
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Vector databases (generated embeddings)
+chroma/
+chromadb/
+vectorstore/
+.vectordb/
+
+# FAISS indexes (if generated locally)
+*.faiss
+*.pkl
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node files (if you have a frontend/backend)
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Uploaded documents (if user uploads private files)
+uploads/
+
+# Temporary files
+tmp/
+temp/
